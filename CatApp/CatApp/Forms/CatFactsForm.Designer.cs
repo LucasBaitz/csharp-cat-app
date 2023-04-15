@@ -61,17 +61,16 @@
             richTextBoxCatFacts.Size = new Size(657, 274);
             richTextBoxCatFacts.TabIndex = 4;
             richTextBoxCatFacts.Text = "- Gatos não gostam de lasanha!";
-            
             // 
             // btnGetCatFacts
             // 
             btnGetCatFacts.Anchor = AnchorStyles.None;
-            btnGetCatFacts.FlatAppearance.BorderSize = 0;
+            btnGetCatFacts.FlatAppearance.BorderColor = Color.FromArgb(255, 218, 171);
             btnGetCatFacts.FlatStyle = FlatStyle.Flat;
             btnGetCatFacts.Image = Properties.Resources.questionCatIcon;
-            btnGetCatFacts.Location = new Point(1067, 564);
+            btnGetCatFacts.Location = new Point(1055, 87);
             btnGetCatFacts.Name = "btnGetCatFacts";
-            btnGetCatFacts.Size = new Size(85, 68);
+            btnGetCatFacts.Size = new Size(116, 71);
             btnGetCatFacts.TabIndex = 3;
             btnGetCatFacts.UseVisualStyleBackColor = false;
             btnGetCatFacts.Click += btnGetCatFacts_Click_1;
@@ -81,7 +80,7 @@
             pictureBoxProfessorCat.Anchor = AnchorStyles.None;
             pictureBoxProfessorCat.BackgroundImage = Properties.Resources.catFactsBG;
             pictureBoxProfessorCat.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBoxProfessorCat.Location = new Point(26, 12);
+            pictureBoxProfessorCat.Location = new Point(12, 3);
             pictureBoxProfessorCat.Name = "pictureBoxProfessorCat";
             pictureBoxProfessorCat.Size = new Size(1215, 688);
             pictureBoxProfessorCat.TabIndex = 2;

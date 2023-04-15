@@ -264,7 +264,7 @@
     <value>1</value>
   </data>
   <data name="btnFindCat.Text" xml:space="preserve">
-    <value>  Encontre um Gato!</value>
+    <value>  Pesquise raças!</value>
   </data>
   <data name="btnFindCat.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>

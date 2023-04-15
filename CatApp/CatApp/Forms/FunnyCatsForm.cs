@@ -9,7 +9,6 @@ namespace CatApp.Forms
     public partial class FunnyCatsForm : Form
     {
         private API getFunnyCatAPI = new API("https://cataas.com/cat?json=true");
-        private string currentImage;
         private string currentImageDescription = "Engraçado :)";
         private MongoDBConnection MongoDataBase = new MongoDBConnection();
 
@@ -28,7 +27,7 @@ namespace CatApp.Forms
 
         private void btnSaveCat_Click(object sender, EventArgs e)
         {
-            StarCat newCat = new StarCat(currentImageDescription, this.currentImage);
+            StarCat newCat = new StarCat(currentImageDescription, pictureBoxDisplayCats.ImageLocation);
             MongoDataBase.AddCat(newCat);
             ShowNotification();
 

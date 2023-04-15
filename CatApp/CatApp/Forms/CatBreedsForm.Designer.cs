@@ -33,7 +33,7 @@
             pictureBoxCatSearchImage = new PictureBox();
             labelBreedName = new Label();
             panelFormBG = new Panel();
-            label1 = new Label();
+            labelSearchCat = new Label();
             panelOptions = new Panel();
             btnSearchBreed = new Button();
             btnSaveBreed = new Button();
@@ -75,7 +75,7 @@
             panelFormBG.BackColor = Color.FromArgb(219, 181, 132);
             panelFormBG.BackgroundImage = (Image)resources.GetObject("panelFormBG.BackgroundImage");
             panelFormBG.BackgroundImageLayout = ImageLayout.Zoom;
-            panelFormBG.Controls.Add(label1);
+            panelFormBG.Controls.Add(labelSearchCat);
             panelFormBG.Controls.Add(panelOptions);
             panelFormBG.Controls.Add(labelBreedName);
             panelFormBG.Controls.Add(pictureBoxCatSearchImage);
@@ -85,16 +85,16 @@
             panelFormBG.Size = new Size(1340, 723);
             panelFormBG.TabIndex = 0;
             // 
-            // label1
+            // labelSearchCat
             // 
-            label1.Anchor = AnchorStyles.None;
-            label1.AutoSize = true;
-            label1.Font = new Font("Script MT Bold", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(1051, 51);
-            label1.Name = "label1";
-            label1.Size = new Size(181, 28);
-            label1.TabIndex = 1;
-            label1.Text = "Escolha uma raça!";
+            labelSearchCat.Anchor = AnchorStyles.None;
+            labelSearchCat.AutoSize = true;
+            labelSearchCat.Font = new Font("Script MT Bold", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            labelSearchCat.Location = new Point(1043, 45);
+            labelSearchCat.Name = "labelSearchCat";
+            labelSearchCat.Size = new Size(223, 34);
+            labelSearchCat.TabIndex = 1;
+            labelSearchCat.Text = "Escolha uma raça!";
             // 
             // panelOptions
             // 
@@ -104,33 +104,35 @@
             panelOptions.Controls.Add(comboBoxAvailableBreeds);
             panelOptions.Location = new Point(1031, 82);
             panelOptions.Name = "panelOptions";
-            panelOptions.Size = new Size(244, 114);
+            panelOptions.Size = new Size(244, 129);
             panelOptions.TabIndex = 2;
             // 
             // btnSearchBreed
             // 
             btnSearchBreed.Anchor = AnchorStyles.None;
-            btnSearchBreed.FlatAppearance.BorderSize = 0;
+            btnSearchBreed.BackColor = Color.FromArgb(219, 181, 132);
+            btnSearchBreed.FlatAppearance.BorderColor = Color.FromArgb(255, 218, 171);
             btnSearchBreed.FlatStyle = FlatStyle.Flat;
             btnSearchBreed.Image = Properties.Resources.searchIcon;
-            btnSearchBreed.Location = new Point(3, 49);
+            btnSearchBreed.Location = new Point(0, 58);
             btnSearchBreed.Name = "btnSearchBreed";
-            btnSearchBreed.Size = new Size(67, 67);
+            btnSearchBreed.Size = new Size(116, 71);
             btnSearchBreed.TabIndex = 4;
-            btnSearchBreed.UseVisualStyleBackColor = true;
+            btnSearchBreed.UseVisualStyleBackColor = false;
             btnSearchBreed.Click += btnSearchBreed_Click;
             // 
             // btnSaveBreed
             // 
             btnSaveBreed.Anchor = AnchorStyles.None;
-            btnSaveBreed.FlatAppearance.BorderSize = 0;
+            btnSaveBreed.BackColor = Color.FromArgb(219, 181, 132);
+            btnSaveBreed.FlatAppearance.BorderColor = Color.FromArgb(255, 218, 171);
             btnSaveBreed.FlatStyle = FlatStyle.Flat;
             btnSaveBreed.Image = (Image)resources.GetObject("btnSaveBreed.Image");
-            btnSaveBreed.Location = new Point(76, 49);
+            btnSaveBreed.Location = new Point(128, 58);
             btnSaveBreed.Name = "btnSaveBreed";
-            btnSaveBreed.Size = new Size(67, 71);
+            btnSaveBreed.Size = new Size(116, 71);
             btnSaveBreed.TabIndex = 6;
-            btnSaveBreed.UseVisualStyleBackColor = true;
+            btnSaveBreed.UseVisualStyleBackColor = false;
             btnSaveBreed.Click += btnSaveBreed_Click;
             // 
             // comboBoxAvailableBreeds
@@ -141,13 +143,14 @@
             comboBoxAvailableBreeds.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxAvailableBreeds.DropDownWidth = 200;
             comboBoxAvailableBreeds.FlatStyle = FlatStyle.Popup;
+            comboBoxAvailableBreeds.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point);
             comboBoxAvailableBreeds.FormattingEnabled = true;
             comboBoxAvailableBreeds.IntegralHeight = false;
-            comboBoxAvailableBreeds.ItemHeight = 20;
+            comboBoxAvailableBreeds.ItemHeight = 37;
             comboBoxAvailableBreeds.Location = new Point(0, 0);
             comboBoxAvailableBreeds.MaxDropDownItems = 20;
             comboBoxAvailableBreeds.Name = "comboBoxAvailableBreeds";
-            comboBoxAvailableBreeds.Size = new Size(244, 28);
+            comboBoxAvailableBreeds.Size = new Size(244, 45);
             comboBoxAvailableBreeds.TabIndex = 0;
             // 
             // textBoxBreedDescription
@@ -156,17 +159,17 @@
             textBoxBreedDescription.BackColor = Color.FromArgb(219, 181, 132);
             textBoxBreedDescription.BorderStyle = BorderStyle.None;
             textBoxBreedDescription.Font = new Font("Calisto MT", 13.8F, FontStyle.Italic, GraphicsUnit.Point);
-            textBoxBreedDescription.Location = new Point(1031, 206);
+            textBoxBreedDescription.Location = new Point(1031, 217);
             textBoxBreedDescription.Multiline = true;
             textBoxBreedDescription.Name = "textBoxBreedDescription";
             textBoxBreedDescription.ReadOnly = true;
-            textBoxBreedDescription.Size = new Size(244, 506);
+            textBoxBreedDescription.Size = new Size(244, 495);
             textBoxBreedDescription.TabIndex = 5;
             // 
             // notifyIconSaveCat
             // 
             notifyIconSaveCat.BalloonTipIcon = ToolTipIcon.Info;
-            notifyIconSaveCat.BalloonTipText = "Este gatinho foi salvo com sucesso!, voce pode encontra-lo na sua \"Lista de gatos\"";
+            notifyIconSaveCat.BalloonTipText = "Este gatinho foi salvo com sucesso! Você pode encontrá-lo na sua lista de gatos.";
             notifyIconSaveCat.BalloonTipTitle = "Gatinho salvo!";
             notifyIconSaveCat.Icon = (Icon)resources.GetObject("notifyIconSaveCat.Icon");
             notifyIconSaveCat.Visible = true;
@@ -193,7 +196,7 @@
         private PictureBox pictureBoxCatSearchImage;
         private Label labelBreedName;
         private Panel panelFormBG;
-        private Label label1;
+        private Label labelSearchCat;
         private Panel panelOptions;
         private Button btnSaveBreed;
         private ComboBox comboBoxAvailableBreeds;

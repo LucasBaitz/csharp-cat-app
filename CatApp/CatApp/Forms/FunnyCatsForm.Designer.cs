@@ -42,13 +42,13 @@
             btnNewCatImage.Anchor = AnchorStyles.None;
             btnNewCatImage.BackColor = Color.FromArgb(219, 181, 132);
             btnNewCatImage.BackgroundImageLayout = ImageLayout.None;
-            btnNewCatImage.FlatAppearance.BorderSize = 0;
+            btnNewCatImage.FlatAppearance.BorderColor = Color.FromArgb(255, 218, 171);
             btnNewCatImage.FlatStyle = FlatStyle.Flat;
             btnNewCatImage.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             btnNewCatImage.Image = Properties.Resources.refreshCatIcon;
-            btnNewCatImage.Location = new Point(486, 590);
+            btnNewCatImage.Location = new Point(433, 626);
             btnNewCatImage.Name = "btnNewCatImage";
-            btnNewCatImage.Size = new Size(82, 79);
+            btnNewCatImage.Size = new Size(116, 71);
             btnNewCatImage.TabIndex = 0;
             btnNewCatImage.UseVisualStyleBackColor = false;
             btnNewCatImage.Click += btnNewCatImage_Click;
@@ -56,9 +56,9 @@
             // pictureBoxDisplayCats
             // 
             pictureBoxDisplayCats.Anchor = AnchorStyles.None;
-            pictureBoxDisplayCats.Location = new Point(145, 25);
+            pictureBoxDisplayCats.Location = new Point(128, 25);
             pictureBoxDisplayCats.Name = "pictureBoxDisplayCats";
-            pictureBoxDisplayCats.Size = new Size(836, 559);
+            pictureBoxDisplayCats.Size = new Size(865, 586);
             pictureBoxDisplayCats.TabIndex = 1;
             pictureBoxDisplayCats.TabStop = false;
             // 
@@ -67,13 +67,13 @@
             btnSaveCat.Anchor = AnchorStyles.None;
             btnSaveCat.BackColor = Color.FromArgb(219, 181, 132);
             btnSaveCat.BackgroundImageLayout = ImageLayout.None;
-            btnSaveCat.FlatAppearance.BorderSize = 0;
+            btnSaveCat.FlatAppearance.BorderColor = Color.FromArgb(255, 218, 171);
             btnSaveCat.FlatStyle = FlatStyle.Flat;
             btnSaveCat.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point);
             btnSaveCat.Image = (Image)resources.GetObject("btnSaveCat.Image");
-            btnSaveCat.Location = new Point(574, 590);
+            btnSaveCat.Location = new Point(607, 626);
             btnSaveCat.Name = "btnSaveCat";
-            btnSaveCat.Size = new Size(82, 79);
+            btnSaveCat.Size = new Size(116, 71);
             btnSaveCat.TabIndex = 2;
             btnSaveCat.UseVisualStyleBackColor = false;
             btnSaveCat.Click += btnSaveCat_Click;
@@ -81,7 +81,7 @@
             // notifyIconSaveCat
             // 
             notifyIconSaveCat.BalloonTipIcon = ToolTipIcon.Info;
-            notifyIconSaveCat.BalloonTipText = "Este gatinho foi salvo com sucesso!, voce pode encontra-lo na sua \"Lista de gatos\"";
+            notifyIconSaveCat.BalloonTipText = "Este gatinho foi salvo com sucesso! Você pode encontrá-lo na sua lista de gatos.";
             notifyIconSaveCat.BalloonTipTitle = "Gatinho salvo!";
             notifyIconSaveCat.Icon = (Icon)resources.GetObject("notifyIconSaveCat.Icon");
             notifyIconSaveCat.Visible = true;
