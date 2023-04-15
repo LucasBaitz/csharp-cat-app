@@ -11,13 +11,13 @@ Nela, somos recepcionados por esses gatinhos e apresentados à interface da apli
 
 Entre elas:
 
-- Buscar gatos por raça
+<h4>Buscar gatos por raça</h4>
 Aqui, é possível selecionar entre diversas raças de gatos existentes. Ao selecionar uma e clicar no botão de pesquisar (lupa), uma imagem da raça e sua descrição irão surgir, informando as principais características de cada raça. Legal, né? Caso tenha gostado de algum gatinho e queira guardá-lo, basta clicar na opção salvar (gatinho com olhos estrelados). Se tudo der certo, a raça do gatinho e a imagem que você viu serão guardadas para você, sendo possível visualizá-las na última opção da aplicação, "Lista de gatos".
 
 ![image](https://user-images.githubusercontent.com/114179291/232190455-47909a64-1f7e-4712-bc2a-13dab4bb7e19.png)
 
 
-- Gatos engraçados
+<h4>Gatos engraçados </h4>
 Essa aba é feita para se divertir. Ao clicar no botão de recarregar (seta circular com uma patinha no meio), uma nova imagem de um gatinho fofo ou fazendo algo engraçado vai aparecer para você. Assim como em "Buscar gatos por raça", você pode salvar a URL da imagem na sua lista de gatos e acessá-la em seu navegador quando quiser!
 
 ![image](https://user-images.githubusercontent.com/114179291/232190467-0f7212e8-66de-48ab-84b1-920102c3c418.png)
