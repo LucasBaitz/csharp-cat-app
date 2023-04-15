@@ -1,5 +1,7 @@
-csharp-cat-app
-Cat App "Purrfectly Pawsome"
+<h1>Cat App "Purrfectly Pawsome"<h1>
+
+> Status do projeto: Finalizado
+
 Para você que assim como eu AMA gatos, apresento um aplicativo que possibilita realizar diversas ações relacionadas aos lindos felinos que tanto amamos. 
 A ideia do app é trazer uma plataforma divertida onde você pode aprender e se divertir. Ao entrar no app, essa é a tela inicial:
 
@@ -50,10 +52,10 @@ Conforme novos conteúdos e ideias forem surgindo, certamente irei adicionar nov
 
 Os assets utilizados na criação do projeto são:
 
-Pata: <a href="https://www.flaticon.com/free-icons/paw" title="paw icons">Paw icons created by Creatype - Flaticon</a>
-Ícone de gatos divertidos: <a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat icons created by Smashicons - Flaticon</a>
-Ícone de lista de gatos: <a href="https://www.flaticon.com/free-icons/pet" title="pet icons">Pet icons created by Freepik - Flaticon</a>
-Botão de recarregar: <a href="https://www.flaticon.com/free-icons/dog" title="dog icons">Dog icons created by Pixel perfect - Flaticon</a>
-Ícone de interrogação: <a href="https://www.flaticon.com/free-icons/question" title="question icons">Question icons created by Freepik - Flaticon</a>
-Ícone de lupa: <a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Freepik - Flaticon</a>
-Gatinho com olhos estrelados: <a href="https://www.flaticon.com/free-icons/cat-face" title="cat face icons">Cat face icons created by Rakib Hassan Rahim - Flaticon</a>
+- Pata: <a href="https://www.flaticon.com/free-icons/paw" title="paw icons">Paw icons created by Creatype - Flaticon</a>
+- Ícone de gatos divertidos: <a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat icons created by Smashicons - Flaticon</a>
+- Ícone de lista de gatos: <a href="https://www.flaticon.com/free-icons/pet" title="pet icons">Pet icons created by Freepik - Flaticon</a>
+- Botão de recarregar: <a href="https://www.flaticon.com/free-icons/dog" title="dog icons">Dog icons created by Pixel perfect - Flaticon</a>
+- Ícone de interrogação: <a href="https://www.flaticon.com/free-icons/question" title="question icons">Question icons created by Freepik - Flaticon</a>
+- Ícone de lupa: <a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Freepik - Flaticon</a>
+- Gatinho com olhos estrelados: <a href="https://www.flaticon.com/free-icons/cat-face" title="cat face icons">Cat face icons created by Rakib Hassan Rahim - Flaticon</a>
