@@ -13,28 +13,12 @@ namespace CatApp.Forms
 {
     public partial class CatFactsForm : Form
     {
-        private API factsAPI = new API("https://meowfacts.herokuapp.com/?lang=por-br", "");
+        private API factsAPI = new API("https://meowfacts.herokuapp.com/?lang=por-br");
         public CatFactsForm()
         {
             InitializeComponent();
 
         }
-
-        private void CatFactsForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnGetCatFacts_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void richTextBoxCatFacts_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnGetCatFacts_Click_1(object sender, EventArgs e)
         {
             richTextBoxCatFacts.Clear();

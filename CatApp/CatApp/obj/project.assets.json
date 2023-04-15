@@ -800,11 +800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lukaa\\Documents\\Aprendendo C#\\7days\\CatApp\\CatApp\\CatApp.csproj",
+      "projectUniqueName": "C:\\Users\\lukaa\\Desktop\\csharp-catapp\\CatApp\\CatApp\\CatApp.csproj",
       "projectName": "CatApp",
-      "projectPath": "C:\\Users\\lukaa\\Documents\\Aprendendo C#\\7days\\CatApp\\CatApp\\CatApp.csproj",
+      "projectPath": "C:\\Users\\lukaa\\Desktop\\csharp-catapp\\CatApp\\CatApp\\CatApp.csproj",
       "packagesPath": "C:\\Users\\lukaa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lukaa\\Documents\\Aprendendo C#\\7days\\CatApp\\CatApp\\obj\\",
+      "outputPath": "C:\\Users\\lukaa\\Desktop\\csharp-catapp\\CatApp\\CatApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lukaa\\AppData\\Roaming\\NuGet\\NuGet.Config",

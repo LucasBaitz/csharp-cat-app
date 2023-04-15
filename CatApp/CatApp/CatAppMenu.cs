@@ -75,7 +75,7 @@ namespace CatApp
         {
             this.MinimumSize = new Size(1000, 900);
             OpenChildForms(new Forms.FunnyCatsForm(), sender);
-            
+
         }
 
         private void btnCatFacts_Click(object sender, EventArgs e)

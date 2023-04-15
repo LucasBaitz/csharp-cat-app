@@ -5,12 +5,13 @@ namespace CatApp.Forms
 
     public partial class CatBreedsForm : Form
     {
-        private API inputsAPI = new API("", "https://api.thecatapi.com/v1/breeds");
+        private API inputsAPI = new API("https://api.thecatapi.com/v1/breeds");
         private MongoDBConnection MongoDataBase = new MongoDBConnection();
         public CatBreedsForm()
         {
             InitializeComponent();
             fillCatComboBox();
+
         }
 
         private void btnSearchBreed_Click(object sender, EventArgs e)
@@ -30,17 +31,16 @@ namespace CatApp.Forms
             }
         }
 
-
-
         private void btnSaveBreed_Click(object sender, EventArgs e)
         {
             StarCat saveBreed = new StarCat(labelBreedName.Text, pictureBoxCatSearchImage.ImageLocation);
             MongoDataBase.AddCat(saveBreed);
+            ShowNotification();
         }
 
-        private void CatBreedsForm_Load(object sender, EventArgs e)
+        private void ShowNotification()
         {
-
+            notifyIconSaveCat.ShowBalloonTip(5000);
         }
     }
 }

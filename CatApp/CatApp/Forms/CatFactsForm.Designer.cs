@@ -57,10 +57,11 @@
             richTextBoxCatFacts.ForeColor = SystemColors.Menu;
             richTextBoxCatFacts.Location = new Point(335, 98);
             richTextBoxCatFacts.Name = "richTextBoxCatFacts";
+            richTextBoxCatFacts.ReadOnly = true;
             richTextBoxCatFacts.Size = new Size(657, 274);
             richTextBoxCatFacts.TabIndex = 4;
             richTextBoxCatFacts.Text = "- Gatos não gostam de lasanha!";
-            richTextBoxCatFacts.TextChanged += richTextBoxCatFacts_TextChanged;
+            
             // 
             // btnGetCatFacts
             // 

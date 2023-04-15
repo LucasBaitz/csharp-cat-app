@@ -82,8 +82,8 @@
             // 
             notifyIconSaveCat.BalloonTipIcon = ToolTipIcon.Info;
             notifyIconSaveCat.BalloonTipText = "Este gatinho foi salvo com sucesso!, voce pode encontra-lo na sua \"Lista de gatos\"";
+            notifyIconSaveCat.BalloonTipTitle = "Gatinho salvo!";
             notifyIconSaveCat.Icon = (Icon)resources.GetObject("notifyIconSaveCat.Icon");
-            notifyIconSaveCat.Text = "Gatinho salvo!";
             notifyIconSaveCat.Visible = true;
             // 
             // FunnyCatsForm
@@ -100,7 +100,6 @@
             DoubleBuffered = true;
             Name = "FunnyCatsForm";
             Text = "Veja fotos de gatinhos!";
-            Load += FunnyCatsForm_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxDisplayCats).EndInit();
             ResumeLayout(false);
         }

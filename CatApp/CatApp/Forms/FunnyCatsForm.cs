@@ -8,59 +8,36 @@ namespace CatApp.Forms
 {
     public partial class FunnyCatsForm : Form
     {
-        private string apiKey = "live_BkRgHJPpp7hxq4DbxgmojoTntpAzUaEz5DfHZohswoToGRFUXJHmAhNuLQnj629o";
-        private HttpClient httpClient = new HttpClient();
+        private API getFunnyCatAPI = new API("https://cataas.com/cat?json=true");
         private string currentImage;
-        private string currentImageDescription;
+        private string currentImageDescription = "Engraçado :)";
         private MongoDBConnection MongoDataBase = new MongoDBConnection();
 
         public FunnyCatsForm()
         {
 
             InitializeComponent();
-            GetImage();
+            getFunnyCatAPI.apiGetImage(pictureBoxDisplayCats);
         }
 
         private async void btnNewCatImage_Click(object sender, EventArgs e)
         {
-            GetImage();
+            getFunnyCatAPI.apiGetImage(pictureBoxDisplayCats);
         }
 
-        private async void GetImage()
-        {
-            using (var client = new HttpClient())
-            {
-                var response = await client.GetAsync("https://cataas.com/cat?json=true");
-                if (response.IsSuccessStatusCode)
-                {
-                    var json = await response.Content.ReadAsStringAsync();
-                    dynamic data = JsonConvert.DeserializeObject(json);
-                    string imageUrl = $"https://cataas.com{data.url}";
-                    this.currentImage = $"https://cataas.com{data.url}";
-
-                    pictureBoxDisplayCats.ImageLocation = imageUrl;
-                    pictureBoxDisplayCats.SizeMode = PictureBoxSizeMode.StretchImage;
-
-                }
-            }
-        }
 
         private void btnSaveCat_Click(object sender, EventArgs e)
         {
-            StarCat newCat = new StarCat(this.currentImageDescription = "Engraçado :)", this.currentImage);
+            StarCat newCat = new StarCat(currentImageDescription, this.currentImage);
             MongoDataBase.AddCat(newCat);
+            ShowNotification();
 
         }
 
-        private void ShowNotification(string message)
+        private void ShowNotification()
         {
             notifyIconSaveCat.ShowBalloonTip(5000);
         }
 
-
-        private void FunnyCatsForm_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

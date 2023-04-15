@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tkUwfuTlAfLV6pLQtsMt8LvME8Fago/o2xV6Myve9IeF/U5Y6OtNJPNhDdPhc2DJpgQtlgCjX6JJniJtssQstA==",
+  "dgSpecHash": "j3DXo8cLDlCZ5RV3vlYyISHmqtX0ykhN8MsYxsbeSu68m+zy58QNS8qVj8ZPn7voVmIht2AYxttbZXqGp9CdWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lukaa\\Documents\\Aprendendo C#\\7days\\CatApp\\CatApp\\CatApp.csproj",
+  "projectFilePath": "C:\\Users\\lukaa\\Desktop\\csharp-catapp\\CatApp\\CatApp\\CatApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lukaa\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\lukaa\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

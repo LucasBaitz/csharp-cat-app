@@ -40,14 +40,14 @@ namespace CatApp.Forms
                     int rowIndex = dataGridViewFavoriteCats.Rows.Add();
                     dataGridViewFavoriteCats.Rows[rowIndex].Cells["description"].Value = $"Raça: {cat.Description}";
                     dataGridViewFavoriteCats.Rows[rowIndex].Cells["imageUrl"].Value = cat.ImageUrl;
-                    
+
                 }
             }
             else
             {
                 int rowIndex = dataGridViewFavoriteCats.Rows.Add();
                 dataGridViewFavoriteCats.Rows[rowIndex].Cells["description"].Value = $"Poxa, nenhum gatinho ?";
-                dataGridViewFavoriteCats.Rows[rowIndex].Cells["imageUrl"].Value = ":(";       
+                dataGridViewFavoriteCats.Rows[rowIndex].Cells["imageUrl"].Value = ":(";
             }
         }
 

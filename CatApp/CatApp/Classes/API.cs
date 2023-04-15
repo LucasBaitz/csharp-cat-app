@@ -5,29 +5,26 @@ namespace CatApp.Classes
 {
     public class API
     {
-        private readonly string apiKey;
         private readonly string apiLink;
 
-        public API(string apiKey, string apiLink)
+        public API(string apiLink)
         {
-            this.apiKey = apiKey;
             this.apiLink = apiLink;
-
         }
 
-        private async void apiGetImage(PictureBox dataDisplayLocation)
+        public async void apiGetImage(PictureBox pictureBoxDisplayCat)
         {
             using (var client = new HttpClient())
             {
-                var response = await client.GetAsync(apiKey);
+                var response = await client.GetAsync("https://cataas.com/cat?json=true");
                 if (response.IsSuccessStatusCode)
                 {
                     var json = await response.Content.ReadAsStringAsync();
                     dynamic data = JsonConvert.DeserializeObject(json);
-                    string imageUrl = data[0].url;
+                    string imageUrl = $"https://cataas.com{data.url}";
 
-                    dataDisplayLocation.ImageLocation = imageUrl;
-                    dataDisplayLocation.SizeMode = PictureBoxSizeMode.StretchImage;
+                    pictureBoxDisplayCat.ImageLocation = imageUrl;
+                    pictureBoxDisplayCat.SizeMode = PictureBoxSizeMode.StretchImage;
 
                 }
             }
@@ -37,7 +34,7 @@ namespace CatApp.Classes
         {
             using (var client = new HttpClient())
             {
-                var response = await client.GetAsync($"{apiLink}{apiKey}");
+                var response = await client.GetAsync($"{apiLink}");
                 if (response.IsSuccessStatusCode)
                 {
                     var json = await response.Content.ReadAsStringAsync();
@@ -77,8 +74,6 @@ namespace CatApp.Classes
 
             return catBreeds;
         }
-
-
 
         public async void apiGetBreeds(ComboBox selectedCat, PictureBox breedImage)
         {

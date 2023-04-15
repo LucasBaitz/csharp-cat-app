@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CatBreedsForm));
             pictureBoxCatSearchImage = new PictureBox();
             labelBreedName = new Label();
@@ -38,6 +39,7 @@
             btnSaveBreed = new Button();
             comboBoxAvailableBreeds = new ComboBox();
             textBoxBreedDescription = new TextBox();
+            notifyIconSaveCat = new NotifyIcon(components);
             ((System.ComponentModel.ISupportInitialize)pictureBoxCatSearchImage).BeginInit();
             panelFormBG.SuspendLayout();
             panelOptions.SuspendLayout();
@@ -157,9 +159,17 @@
             textBoxBreedDescription.Location = new Point(1031, 206);
             textBoxBreedDescription.Multiline = true;
             textBoxBreedDescription.Name = "textBoxBreedDescription";
+            textBoxBreedDescription.ReadOnly = true;
             textBoxBreedDescription.Size = new Size(244, 506);
             textBoxBreedDescription.TabIndex = 5;
-            textBoxBreedDescription.Text = "Lorem";
+            // 
+            // notifyIconSaveCat
+            // 
+            notifyIconSaveCat.BalloonTipIcon = ToolTipIcon.Info;
+            notifyIconSaveCat.BalloonTipText = "Este gatinho foi salvo com sucesso!, voce pode encontra-lo na sua \"Lista de gatos\"";
+            notifyIconSaveCat.BalloonTipTitle = "Gatinho salvo!";
+            notifyIconSaveCat.Icon = (Icon)resources.GetObject("notifyIconSaveCat.Icon");
+            notifyIconSaveCat.Visible = true;
             // 
             // CatBreedsForm
             // 
@@ -172,7 +182,6 @@
             DoubleBuffered = true;
             Name = "CatBreedsForm";
             Text = "Busque por raças!";
-            Load += CatBreedsForm_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxCatSearchImage).EndInit();
             panelFormBG.ResumeLayout(false);
             panelFormBG.PerformLayout();
@@ -190,5 +199,6 @@
         private ComboBox comboBoxAvailableBreeds;
         private Button btnSearchBreed;
         private TextBox textBoxBreedDescription;
+        private NotifyIcon notifyIconSaveCat;
     }
 }

@@ -73,6 +73,7 @@
             dataGridViewFavoriteCats.GridColor = Color.White;
             dataGridViewFavoriteCats.Location = new Point(258, 148);
             dataGridViewFavoriteCats.Name = "dataGridViewFavoriteCats";
+            dataGridViewFavoriteCats.ReadOnly = true;
             dataGridViewFavoriteCats.RowHeadersVisible = false;
             dataGridViewFavoriteCats.RowHeadersWidth = 51;
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.TopCenter;
@@ -86,12 +87,14 @@
             description.HeaderText = "Descrição";
             description.MinimumWidth = 6;
             description.Name = "description";
+            description.ReadOnly = true;
             // 
             // imageUrl
             // 
             imageUrl.HeaderText = "URL da imagem";
             imageUrl.MinimumWidth = 6;
             imageUrl.Name = "imageUrl";
+            imageUrl.ReadOnly = true;
             // 
             // CatListForm
             // 

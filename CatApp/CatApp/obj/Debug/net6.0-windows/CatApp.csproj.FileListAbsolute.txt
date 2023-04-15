@@ -36,3 +36,41 @@ C:\Users\lukaa\Documents\Aprendendo C#\7days\CatApp\CatApp\bin\Debug\net6.0-wind
 C:\Users\lukaa\Documents\Aprendendo C#\7days\CatApp\CatApp\bin\Debug\net6.0-windows\runtimes\linux\native\libmongocrypt.so
 C:\Users\lukaa\Documents\Aprendendo C#\7days\CatApp\CatApp\bin\Debug\net6.0-windows\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\lukaa\Documents\Aprendendo C#\7days\CatApp\CatApp\bin\Debug\net6.0-windows\runtimes\win\native\mongocrypt.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\CatApp.exe
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\CatApp.deps.json
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\CatApp.runtimeconfig.json
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\CatApp.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\CatApp.pdb
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\AWSSDK.Core.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\AWSSDK.SecurityToken.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\DnsClient.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\MongoDB.Bson.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\MongoDB.Driver.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\MongoDB.Driver.Core.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\MongoDB.Libmongocrypt.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\SharpCompress.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\Snappier.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\ZstdSharp.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\runtimes\linux\native\libmongocrypt.so
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\bin\Debug\net6.0-windows\runtimes\win\native\mongocrypt.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.csproj.AssemblyReference.cache
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.CatAppMenu.resources
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.Forms.CatBreedsForm.resources
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.Forms.CatFactsForm.resources
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.Forms.CatListForm.resources
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.Forms.FunnyCatsForm.resources
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.Properties.Resources.resources
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.csproj.GenerateResource.cache
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.AssemblyInfoInputs.cache
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.AssemblyInfo.cs
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.csproj.CoreCompileInputs.cache
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.csproj.CopyComplete
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\refint\CatApp.dll
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.pdb
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\CatApp.genruntimeconfig.cache
+C:\Users\lukaa\Desktop\csharp-catapp\CatApp\CatApp\obj\Debug\net6.0-windows\ref\CatApp.dll
