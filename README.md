@@ -53,7 +53,9 @@ Comecei este projeto devido ao desafio do "7 Days of Code", oferecido pela Alura
 
 Conforme novos conteúdos e ideias forem surgindo, certamente irei adicionar novas funcionalidades ao aplicativo para torná-lo cada vez mais interessante.
 
-Os assets utilizados na criação do projeto são:
+Recursos utilizados e referências:
+
+- 7 Days of Code: https://7daysofcode.io
 
 - Pata: <a href="https://www.flaticon.com/free-icons/paw" title="paw icons">Paw icons created by Creatype - Flaticon</a>
 - Ícone de gatos divertidos: <a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat icons created by Smashicons - Flaticon</a>
