@@ -14,9 +14,10 @@ Entre elas:
 <h2>Buscar gatos por raça</h2>
 Aqui, é possível selecionar entre diversas raças de gatos existentes. Ao selecionar uma e clicar no botão de pesquisar (lupa), uma imagem da raça e sua descrição irão surgir, informando as principais características de cada raça. Legal, né? Caso tenha gostado de algum gatinho e queira guardá-lo, basta clicar na opção salvar (gatinho com olhos estrelados). Se tudo der certo, a raça do gatinho e a imagem que você viu serão guardadas para você, sendo possível visualizá-las na última opção da aplicação, "Lista de gatos".
 
-> As descrições vêm em inglês, não foi possível encontrar uma maneira rápida de trazê-las traduzidas :(
+
 
 ![image](https://user-images.githubusercontent.com/114179291/232190455-47909a64-1f7e-4712-bc2a-13dab4bb7e19.png)
+> As descrições vêm em inglês, não foi possível encontrar uma maneira rápida de trazê-las traduzidas :(
 
 
 <h2>Gatos engraçados</h2>
