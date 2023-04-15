@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="CatAppMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\CatBreedsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\CatFactsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\CatListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FunnyCatsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="CatAppMenu.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
