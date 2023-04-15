@@ -1,4 +1,4 @@
-<h1>Cat App "Purrfectly Pawsome"<h1>
+<h1>Cat App "Purrfectly Pawsome"</h1>
 
 > Status do projeto: Finalizado
 
